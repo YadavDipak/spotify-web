@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/app/SongInfo/:id",
+      "destination": "/api/app/SongInfo/[id]"
+    },
+    {
+      "source": "/.well-known/assetlinks.json",
+      "destination": "/public/.well-known/assetlinks.json"
+    }
+  ]
+}
